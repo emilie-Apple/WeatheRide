@@ -1,0 +1,3 @@
+weatheride_homepage:
+    path:     /
+    defaults: { _controller: WeatherideBundle:Default:index }
