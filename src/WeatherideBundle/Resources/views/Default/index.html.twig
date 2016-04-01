@@ -1,10 +1,9 @@
 {% extends 'base.html.twig' %}
         {% block body %}
 
-<body onload="onLoad();">
 <h1>WeatheRide</h1>
 
-<div class = "weather">
+<div class = "weather" >
     <div style="width: 255px;height: 280px;">
         <div style="margin:7px 10px;">
             <iframe id="widget-frame"
@@ -22,6 +21,18 @@
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="span11">
+        <form method="post" id="geocoding_form">
+            <label for="address">Ville : </label>
+            <div class="input">
+                <input type="text" id="address" name="address" />
+                <input type="submit" class="btn" value="Search" />
+            </div>
+        </form>
+        <div id="map"></div>
+    </div>
+</div>
 
-</body>
+
         {% endblock %}
