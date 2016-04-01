@@ -1,6 +1,6 @@
 body {
 	background-color: silver;
-	background-image: url(../images/accueil.png);
+	background-image: url(../src/WeatherideBundle/Ressources/Public/images/accueil.png);
 	background-size: cover;
 }
 h1

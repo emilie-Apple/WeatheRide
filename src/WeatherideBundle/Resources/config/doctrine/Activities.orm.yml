@@ -1,0 +1,19 @@
+WeatherideBundle\Entity\Activities:
+    type: entity
+    table: null
+    repositoryClass: WeatherideBundle\Repository\ActivitiesRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        activity:
+            type: string
+            length: 255
+            unique: true
+        weather:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
