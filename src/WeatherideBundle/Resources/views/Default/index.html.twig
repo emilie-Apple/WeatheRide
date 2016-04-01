@@ -3,9 +3,25 @@
 
 <body onload="onLoad();">
 <h1>WeatheRide</h1>
+
 <div class = "weather">
-    <div style="width: 255px;height: 280px;"><div style="margin:7px 10px;">
-            <iframe id="widget-frame" src="http://www.meteovista.fr/Go/ExternalWidgetsNew/TwoDaysCityWithSearch?gid=4266446&activityType=0&titleColor=%23222222&linkColor=%230160b2&temperatureScale=Celsius&defaultSettings=True" width="235" height="235" frameborder="0" scrolling="no" style="border: none;" allowtransparency="true"></iframe><a href="http://www.meteovista.fr/" style="display: block;height: 25px;width: 113px;margin: 0px 10px 8px 0px;outline: none;text-decoration: none;" title="Meteovista.fr la météo autrement" target="_blank"><img src="http://www.meteovista.fr/Shared/Images/variations/fr-FR/new-widget-logo-FR-color.png" width="113" height="25" alt="Meteovista.fr la météo autrement" style="border: none;background-color: transparent;box-shadow: none;" /></a></div></div></div>
+    <div style="width: 255px;height: 280px;">
+        <div style="margin:7px 10px;">
+            <iframe id="widget-frame"
+                    src="http://www.meteovista.fr/Go/ExternalWidgetsNew/TwoDaysCityWithSearch?gid=4266446&activityType=0&titleColor=%23222222&linkColor=%230160b2&temperatureScale=Celsius&defaultSettings=False"
+                    width="235" height="235" frameborder="0" scrolling="no" style="border: none;" allowtransparency="false">
+            </iframe>
+            <a href="http://www.meteovista.fr/"
+               style="display: block;height: 25px;width: 113px;margin: 0px 10px 8px 0px;outline: none;text-decoration: none;"
+               title="Meteovista.fr la météo autrement"
+               target="_blank">
+                <img src="http://www.meteovista.fr/Shared/Images/variations/fr-FR/new-widget-logo-FR-color.png"
+                     width="113" height="25" alt="Meteovista.fr la météo autrement"
+                     style="border: none;background-color: transparent;box-shadow: none;" />
+            </a>
+        </div>
+    </div>
+</div>
 
 </body>
         {% endblock %}
